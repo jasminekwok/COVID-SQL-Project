@@ -149,5 +149,4 @@ JOIN covidvaccinations AS v
 	ON d.location = v.location 
     AND d.date = v.date
 WHERE d.continent != ""
-ORDER BY 2,3); percentpvaccinated;
-
+ORDER BY 2,3); 
